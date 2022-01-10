@@ -1,6 +1,8 @@
+import "./Header.css";
+
 function Header({ name, tagline }) {
   return (
-    <header>
+    <header className="header">
       <p>{name}</p>
       <i>{tagline}</i>
     </header>
